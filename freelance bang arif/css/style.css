@@ -1,0 +1,362 @@
+:root {
+  --pr-color: #3E7B27;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+/* navbar style */
+.navbar {
+  z-index: 3;
+}
+
+/* navbar color */
+.nav-color {
+  background-color: #3E7B27;
+  transition: all-ease-in-out .3s ;
+  opacity: 80%;
+}
+
+.bg-transparent {
+  transition: all-ease-in-out .3s ;
+}
+
+*{
+  z-index: 2;
+}
+
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+
+/* hero section style */
+
+#hero {
+  
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  width: 100%;
+  filter: brightness(50%);
+
+}
+.hero-tagline h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 70px;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+  width: 85%;
+}
+.button-lg-primary {
+  width: 230px;
+  height: 40px;
+  background-color: #3E7B27;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.accsent-img {
+  z-index: 1;
+}
+.img-hero {
+  z-index: 1;
+}
+/* layanan section */
+
+#layanan {
+  padding: 100px 0;
+}
+.gambarsection{
+  width: 500px;
+}
+
+.section-tagline h2 {
+  margin-top: 20px;
+  color: #0e2944;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+}
+.section-tagline p {
+  font-size: 14px;
+  color: #0e2944;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  line-height: 20px;
+  width: 88%;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+
+}
+.card-layanan {
+  width: 400px;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0,0,0,0.05);
+  transition: all .2s ease-in;
+
+}
+.circle-icon {
+  
+  background-color: var(--pr-color);
+  border-radius: 10px;
+  transition: all .1s ease-in;
+}
+.card-layanan h3{
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all .2s ease-in;
+
+}
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+  transition: all .3  s ease-in;
+}
+
+/* tabs section */
+.imgtabs-osc {
+  height: 250px;
+  width: auto;
+  
+}
+#search{
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+  }
+  .nav-link.active {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3E7B27;
+    border-bottom: 2px solid yellowgreen;
+  }
+}
+
+.text-osc h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 70px;
+  
+}
+.text-osc p {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
+  
+}
+
+/* mengapa section */
+#mengapa {
+  padding: 100px 0;
+  margin-top: 100px;
+}
+.head-mgp h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.card-mgp {
+  /* width: 400px;
+  height: 313px; */
+  /* border-radius: 5px; */
+  /* background-color: #fff; */
+  padding: 40px;
+  /* box-shadow: 0 0 7px 3px rgba(0,0,0,0.05); */
+  transition: all .2s ease-in;
+
+}
+.card-mgp h3 {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+.card-mgp p{
+  font-size: 13px;
+}
+.mgp-icon {
+  width: 50px;
+  
+}
+/* jangkauan section */
+
+.gambarjangkauan {
+  width: 570px;
+}
+.section-jangkauan h2 {
+  margin-top: 20px;
+  color: #0e2944;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+}
+.section-jangkauan p {
+  font-size: 14px;
+  color: #0e2944;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  line-height: 20px;
+  width: 88%;
+}
+/* mitra section */
+#mitra {
+  margin-top: 100px;
+}
+#mitra h2{
+  font-size: 35px;
+  font-weight: 600;
+}
+.card-fitur {
+  background: linear-gradient(to bottom, #3E7B27, #A9C46C);
+  width: 300px;
+  height: 225px;
+  border-radius: 10px;
+}
+.img-mitra {
+  width: 35px;
+  height: auto;
+  margin-left: 120px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.card-mitra h5 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+  margin: 15px;
+}
+
+.card-mitra h6 {
+  margin-left: 120px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.btn-mitra {
+  background-color: #3E7B27;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+/* contact */
+#contact {
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  
+}
+.img-contact {
+  width: 100%;
+  
+  height: 400px;
+  background-size: cover;
+  background-origin: border-box;
+  border: 40px solid transparent;
+
+}
+.img-contact {
+  z-index: 1;
+}
+#contact h2 {
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 280px;
+  background-color: #3E7B27;
+  
+}
+.copyright {
+  bottom: 1%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 11px;
+  
+
+}
+.text-worka:link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  
+  
+  
+}
+.text-worka h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+  
+  
+}
+
+
+
+.footer-font {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 11px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 70px; 
+}
+.footer-font h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  
+  color: #FFFFFF;
+  text-decoration: none; 
+}
